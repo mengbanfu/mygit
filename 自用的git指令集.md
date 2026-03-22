@@ -8,6 +8,7 @@ git commit -u      #提交文件
 git push -u origin main			#推送到Github
 git pull origin main		#拉取最新代码
 git diff --cached --name-only				#检查当前暂存区文件
+git push -f				#强制提交
 ```
 
 ###移除相关文件
