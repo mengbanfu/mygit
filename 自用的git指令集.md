@@ -4,8 +4,17 @@
 
 ```bash
 git add           #添加相关文件
-git commit        #提交文件
+git commit -u      #提交文件
 git push -u origin master			#推送到Github
+git pull origin main		#拉取最新代码
+git diff --cached --name-only				#检查当前暂存区文件
+```
+
+###移除相关文件
+
+```bash
+git reset HEAD README.md 	#移除单个文件
+git reset HEAD				#移除所有暂存文件
 ```
 
 ###拉取远程代码
@@ -36,11 +45,31 @@ git branch
 
 ```bash
 git status
+git diff --cached --name-only #快速查看暂存区文件
 ```
 
 ###连接远程仓库
 
 ```bash
 git remote add origin 你的仓库地址
+git remote set-url origin https://github.com/mengbanfu/新仓库名.git
+```
+
+###查看提交记录
+
+```bash
+git log --oneline
+```
+
+###Github上的提交流程   (举例)
+
+```bash
+echo "# mygit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mengbanfu/mygit.git
+git push -u origin main
 ```
 
