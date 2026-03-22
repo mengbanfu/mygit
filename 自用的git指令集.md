@@ -5,7 +5,7 @@
 ```bash
 git add           #添加相关文件
 git commit -u      #提交文件
-git push -u origin master			#推送到Github
+git push -u origin main			#推送到Github
 git pull origin main		#拉取最新代码
 git diff --cached --name-only				#检查当前暂存区文件
 ```
