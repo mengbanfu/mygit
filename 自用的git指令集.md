@@ -28,6 +28,7 @@ git pull
 
 ```bash
 git config --global --list
+git checkout main      #检查是否当前分支
 ```
 
 ###查看当前仓库的远程地址
