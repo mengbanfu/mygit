@@ -60,7 +60,7 @@ git remote set-url origin https://github.com/mengbanfu/新仓库名.git
 ###查看提交记录
 
 ```bash
-git log --oneline
+git log --oneline    #查看当前路径下提交记录
 ```
 
 ###Github上的提交流程   (举例)
